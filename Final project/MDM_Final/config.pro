@@ -1,0 +1,2 @@
+﻿shade_quality 11
+edge_display_quality very_high

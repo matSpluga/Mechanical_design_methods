@@ -1,0 +1,9 @@
+       Diagnostica errori: analisi/assieme
+
+Errore rilevato dal contatto 3D Contatto 3 nel modello PROGETTOMDM:
+Profondità eccessiva per il calcolo corretto della patch di contatto per un
+contatto cilindro-piano.
+L'operazione non rispetta i presupposti contatto-patch correlati ai calcoli di
+contatto hertziani.
+
+

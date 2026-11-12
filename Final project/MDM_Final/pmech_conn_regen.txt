@@ -1,0 +1,14 @@
+       Diagnostica errori: analisi/assieme
+
+  Impossibile soddisfare contemporaneamente tutti i vincoli di posizione. 
+I seguenti vincoli di posizione non possono essere soddisfatti:
+
+
+1) Impossibile soddisfare Limite inferiore di primo asse di traslazione della
+connessione Connection_8 nel modello JODELLGRIPPER.
+
+
+2) Impossibile chiudere il loop cinematico seguente: Ground - body12 - body7 -
+body8 - body9 - body11 - body10 - Ground.
+
+

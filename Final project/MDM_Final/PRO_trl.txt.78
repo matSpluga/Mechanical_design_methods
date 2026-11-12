@@ -1,0 +1,9 @@
+﻿!UI trail file version 1
+!Application name  `PRO`
+! Message Dialog: Warning
+!               : Creo Parametric Student Edition (for educational use only) verrà chiuso e il lavoro non salvato andrà perso.
+!               : Uscire?
+~ Activate `UI Message Dialog` `yes`
+!%CWI nuovi oggetti creati tramite questa versione didattica di Creo Parametric non saranno
+!%C_compatibili con il software Creo Parametric di licenza commerciale.
+!End of Trail File

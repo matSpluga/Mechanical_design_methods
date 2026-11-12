@@ -1,0 +1,3 @@
+Tipi di gripper: Parallela, angolare, under-actuated, soft gripper
+
+Under actuated: DOF > actuator -> elastic sequencing -> spring joints -> rest configurations 

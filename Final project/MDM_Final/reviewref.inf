@@ -1,0 +1,63 @@
+﻿|***************************|
+    INFORMAZIONI RIFERIMENTO 
+|***************************|
+ Riferimento n.1 su 1 
+
+Riferimento:
+   TIPO   : PIANO SU PUNTO SUPERFICIE
+
+Stato   : in geometry (body id -5778)
+
+
+Proprietario di riferimento:
+ Modello   :
+   NOME   : BASE_CLAW 
+   TIPO   : Parte
+ Feature :
+
+    NUMERO FEATURE       10
+    ID FEATURE INTERNO 869
+    PADRI = 5(#3) 79(#5) 
+    FIGLI = 1049(#11) 1067(#12) 
+
+
+ SPORGENZA: Estrusione
+
+  N.      NOME ELEMENTO      INFO                                               
+  ---     -------------      -------------                                      
+   1      Nome feature       Definito                                           
+   2      Tipo feat estrus   Solido                                             
+   3      Materiale          Aggiungi                                           
+   4      Corpo              Definito                                           
+   4.1    Usa corpo          Selezionato                                        
+   4.2    Corpi selezionati  Corpo 1                                            
+   5      Sezione            Definito                                           
+   5.1    Imposta piano      Definito                                           
+   5.1.1  Piano di sketch    Supfce:F5(ESTRUSIONE_1)                            
+   5.1.2  Direzione vista    Lato 1                                             
+   5.1.3  Orientamento       Sotto                                              
+   5.1.4  Riferimento        Supfce:F5(ESTRUSIONE_1)                            
+   5.2    Sketch             Definito                                           
+   6      Forma feature      Solido                                             
+   7      Direzione          Lato 2                                             
+   8      Profondità         Definito                                           
+   8.1    Lato uno           Definito                                           
+   8.1.1  Profondità lato 1  Nessuno                                            
+   8.2    Lato due           Definito                                           
+   8.2.1  Profondità lato 2  Variabile                                          
+   8.2.2  Valore             7.65                                               
+
+    SEZIONE = Sezione 1 
+
+    FEATURE È NEI LIVELLI :
+      02___PRT_ALL_AXES - OPERAZIONE = MOSTRATA
+
+    QUOTE DI FEATURE:
+    d69 = (Visualizzato:) 7.65
+          ( Memorizzato:) 7.65 ( 0.01, -0.01 ) 
+    d73 = (Visualizzato:) 4 Dia
+          ( Memorizzato:) 4.0 ( 0.01, -0.01 ) 
+    d74 = (Visualizzato:) 3.75
+          ( Memorizzato:) 3.75 ( 0.01, -0.01 ) 
+    d75 = (Visualizzato:) 3.75
+          ( Memorizzato:) 3.75 ( 0.01, -0.01 ) 

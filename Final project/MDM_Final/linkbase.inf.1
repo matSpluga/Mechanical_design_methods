@@ -1,0 +1,311 @@
+﻿
+ PARTE LINKBASE
+
+ NOME FILE MATERIALE: PTC_SYSTEM_MTRL_PROPS
+
+Info unità per il sistema principale 'millimeter Newton Second (mmNs)'
+
+                Lunghezza  mm 
+                    Massa  tonne 
+                    Forza  N 
+                    Tempo  sec 
+              Temperatura  C 
+ FEATURE:
+
+
+ NUMERO FEATURE       1
+ ID FEATURE INTERNO 1
+ FIGLI = 40(#5) 67(#6) 112(#7) 144(#8) 
+
+
+ PIANO DI RIFERIMENTO
+
+  N.      NOME ELEMENTO         INFO                                            
+  ---     -------------         -------------                                   
+   1      Nome feature          Definito                                        
+   2      Vincoli               Definito                                        
+   2.1    Vincolo 1             Definito                                        
+   2.1.1  Tipo costruz          Asse X                                          
+   3      Inverti direz Rifmto  Definito                                        
+   4      Adatta                Definito                                        
+   4.1    Tipo adatt            Default                                         
+
+ NOME = RIGHT
+
+    FEATURE È NEI LIVELLI :
+      01___PRT_ALL_DTM_PLN - OPERAZIONE = MOSTRATA
+      01___PRT_DEF_DTM_PLN - OPERAZIONE = MOSTRATA
+
+
+ ********************
+
+
+ NUMERO FEATURE       2
+ ID FEATURE INTERNO 3
+ FIGLI = 40(#5) 67(#6) 112(#7) 144(#8) 
+
+
+ PIANO DI RIFERIMENTO
+
+  N.      NOME ELEMENTO         INFO                                            
+  ---     -------------         -------------                                   
+   1      Nome feature          Definito                                        
+   2      Vincoli               Definito                                        
+   2.1    Vincolo 1             Definito                                        
+   2.1.1  Tipo costruz          Asse Y                                          
+   3      Inverti direz Rifmto  Definito                                        
+   4      Adatta                Definito                                        
+   4.1    Tipo adatt            Default                                         
+
+ NOME = TOP
+
+    FEATURE È NEI LIVELLI :
+      01___PRT_ALL_DTM_PLN - OPERAZIONE = MOSTRATA
+      01___PRT_DEF_DTM_PLN - OPERAZIONE = MOSTRATA
+
+
+ ********************
+
+
+ NUMERO FEATURE       3
+ ID FEATURE INTERNO 5
+ FIGLI = 40(#5) 67(#6) 112(#7) 144(#8) 
+
+
+ PIANO DI RIFERIMENTO
+
+  N.      NOME ELEMENTO         INFO                                            
+  ---     -------------         -------------                                   
+   1      Nome feature          Definito                                        
+   2      Vincoli               Definito                                        
+   2.1    Vincolo 1             Definito                                        
+   2.1.1  Tipo costruz          Asse Z                                          
+   3      Inverti direz Rifmto  Definito                                        
+   4      Adatta                Definito                                        
+   4.1    Tipo adatt            Default                                         
+
+ NOME = FRONT
+
+    FEATURE È NEI LIVELLI :
+      01___PRT_ALL_DTM_PLN - OPERAZIONE = MOSTRATA
+      01___PRT_DEF_DTM_PLN - OPERAZIONE = MOSTRATA
+
+
+ ********************
+
+
+ NUMERO FEATURE       4
+ ID FEATURE INTERNO 7
+ FIGLI = 40(#5) 67(#6) 112(#7) 144(#8) 
+
+
+ SISTEMA DI COORDINATE
+
+  N.    NOME ELEMENTO                    INFO                                   
+  ---   -------------                    -------------                          
+   1    Nome feature                     Definito                               
+   2    Opzione di visualizzazione nomi  SÌ                                     
+   3    Opzione di visualizzazione dipe  NO                                     
+
+ NOME = PRT_CSYS_DEF
+
+    FEATURE È NEI LIVELLI :
+      05___PRT_ALL_DTM_CSYS - OPERAZIONE = MOSTRATA
+      05___PRT_DEF_DTM_CSYS - OPERAZIONE = MOSTRATA
+
+
+ ********************
+
+
+ NUMERO FEATURE       5
+ ID FEATURE INTERNO 40
+ PADRI = 1(#1) 3(#2) 7(#4) 5(#3) 
+ FIGLI = 67(#6) 112(#7) 144(#8) 
+
+
+ SPORGENZA: Estrusione
+
+  N.      NOME ELEMENTO      INFO                                               
+  ---     -------------      -------------                                      
+   1      Nome feature       Definito                                           
+   2      Tipo feat estrus   Solido                                             
+   3      Materiale          Aggiungi                                           
+   4      Corpo              Definito                                           
+   4.1    Usa corpo          Selezionato                                        
+   4.2    Corpi selezionati  Corpo 1                                            
+   5      Sezione            Definito                                           
+   5.1    Imposta piano      Definito                                           
+   5.1.1  Piano di sketch    FRONT:F3(PIANO DI RIFERIMENTO)                     
+   5.1.2  Direzione vista    Lato 1                                             
+   5.1.3  Orientamento       Destra                                             
+   5.1.4  Riferimento        RIGHT:F1(PIANO DI RIFERIMENTO)                     
+   5.2    Sketch             Definito                                           
+   6      Forma feature      Solido                                             
+   7      Direzione          Lato 2                                             
+   8      Profondità         Definito                                           
+   8.1    Lato uno           Definito                                           
+   8.1.1  Profondità lato 1  Nessuno                                            
+   8.2    Lato due           Definito                                           
+   8.2.1  Profondità lato 2  Variabile                                          
+   8.2.2  Valore             8.00                                               
+
+ SEZIONE = Sezione 1 
+
+
+ QUOTE DI FEATURE:
+ d0 = (Visualizzato:) 8
+      ( Memorizzato:) 8.0 ( 0.01, -0.01 ) 
+ d1 = (Visualizzato:) 6
+      ( Memorizzato:) 6.0 ( 0.01, -0.01 ) 
+ d2 = (Visualizzato:) 8
+      ( Memorizzato:) 8.0 ( 0.01, -0.01 ) 
+
+ ********************
+
+
+ NUMERO FEATURE       6
+ ID FEATURE INTERNO 67
+ PADRI = 1(#1) 40(#5) 3(#2) 
+
+
+ TAGLIO: Estrusione
+
+  N.      NOME ELEMENTO      INFO                                               
+  ---     -------------      -------------                                      
+   1      Nome feature       Definito                                           
+   2      Tipo feat estrus   Solido                                             
+   3      Materiale          Rimuovi                                            
+   4      Corpo              Definito                                           
+   4.1    Usa corpo          Selezionato                                        
+   4.2    Corpi selezionati  Corpo 1                                            
+   5      Sezione            Definito                                           
+   5.1    Imposta piano      Definito                                           
+   5.1.1  Piano di sketch    TOP:F2(PIANO DI RIFERIMENTO)                       
+   5.1.2  Direzione vista    Lato 1                                             
+   5.1.3  Orientamento       Sopra                                              
+   5.1.4  Riferimento        RIGHT:F1(PIANO DI RIFERIMENTO)                     
+   5.2    Sketch             Definito                                           
+   6      Forma feature      Solido                                             
+   7      Lato materiale     Lato due                                           
+   8      Direzione          Lato 2                                             
+   9      Profondità         Definito                                           
+   9.1    Lato uno           Definito                                           
+   9.1.1  Profondità lato 1  Nessuno                                            
+   9.2    Lato due           Definito                                           
+   9.2.1  Profondità lato 2  Variabile                                          
+   9.2.2  Valore             2.00                                               
+
+ SEZIONE = Sezione 1 
+
+
+ QUOTE DI FEATURE:
+ d4 = (Visualizzato:) 2
+      ( Memorizzato:) 2.0 ( 0.01, -0.01 ) 
+ d5 = (Visualizzato:) 3 (debole)
+      ( Memorizzato:) 3.0 ( 0.01, -0.01 ) 
+ d6 = (Visualizzato:) 7 (debole)
+      ( Memorizzato:) 7.0 ( 0.01, -0.01 ) 
+ d7 = (Visualizzato:) 1.5 (debole)
+      ( Memorizzato:) 1.5 ( 0.01, -0.01 ) 
+ d8 = (Visualizzato:) 0.5 (debole)
+      ( Memorizzato:) 0.5 ( 0.01, -0.01 ) 
+ d9 = (Visualizzato:) 1.5 (debole)
+      ( Memorizzato:) 1.5 ( 0.01, -0.01 ) 
+
+ ********************
+
+
+ NUMERO FEATURE       7
+ ID FEATURE INTERNO 112
+ PADRI = 40(#5) 
+ FIGLI = 144(#8) 
+
+
+ FORO
+
+  N.        NOME ELEMENTO           INFO                                        
+  ---       -------------           -------------                               
+   1        Foro                    Definito                                    
+   1.1      Tipo di foro            Foro diritto                                
+   1.2      Crea foro               Normale                                     
+   1.3      Diametro                3.00                                        
+   1.4      Profondità              Definito                                    
+   1.4.1    Lato uno                Definito                                    
+   1.4.1.1  Profondità lato 1       Attraverso tutto                            
+   1.4.2    Lato due                Definito                                    
+   1.4.2.1  Profondità lato 2       Nessuno                                     
+   1.5      Inverti                 Lato 1                                      
+   1.6      Gioco superiore         Implicito                                   
+   2        Posizionamento          Definito                                    
+   2.1      Riferimento principale  Supfce:F5(ESTRUSIONE_1)                     
+   2.2      Tipo posizionamento     Lineare                                     
+   2.3      Riferimento lineare     Spigolo:F5(ESTRUSIONE_1)                    
+   2.4      Opzione allineamento 1  Non allineato                               
+   2.5      Distanza                2.688                                       
+   2.6      Riferimento lineare     Spigolo:F5(ESTRUSIONE_1)                    
+   2.7      Opzione allineamento 2  Non allineato                               
+   2.8      Distanza                3.00                                        
+   2.9      Riferimento direzione   Default                                     
+   3        Nome feature            Definito                                    
+   4        Corpo                   Definito                                    
+   4.1      Usa corpo               Selezionato                                 
+   4.2      Corpi selezionati       Corpo 1                                     
+
+ POSIZIONAMENTO = LINEARE
+
+    FEATURE È NEI LIVELLI :
+      02___PRT_ALL_AXES - OPERAZIONE = MOSTRATA
+
+ QUOTE DI FEATURE:
+ d11 = (Visualizzato:) 3 Dia
+       ( Memorizzato:) 3.0 ( 0.01, -0.01 ) 
+ d13 = (Visualizzato:) 2.69
+       ( Memorizzato:) 2.688 ( 0.01, -0.01 ) 
+ d14 = (Visualizzato:) 3
+       ( Memorizzato:) 3.0 ( 0.01, -0.01 ) 
+
+ ********************
+
+
+ NUMERO FEATURE       8
+ ID FEATURE INTERNO 144
+ PADRI = 40(#5) 112(#7) 1(#1) 
+
+
+ TAGLIO: Estrusione
+
+  N.      NOME ELEMENTO      INFO                                               
+  ---     -------------      -------------                                      
+   1      Nome feature       Definito                                           
+   2      Tipo feat estrus   Solido                                             
+   3      Materiale          Rimuovi                                            
+   4      Corpo              Definito                                           
+   4.1    Usa corpo          Selezionato                                        
+   4.2    Corpi selezionati  Corpo 1                                            
+   5      Sezione            Definito                                           
+   5.1    Imposta piano      Definito                                           
+   5.1.1  Piano di sketch    Supfce:F5(ESTRUSIONE_1)                            
+   5.1.2  Direzione vista    Lato 1                                             
+   5.1.3  Orientamento       Sinistra                                           
+   5.1.4  Riferimento        RIGHT:F1(PIANO DI RIFERIMENTO)                     
+   5.2    Sketch             Definito                                           
+   6      Forma feature      Solido                                             
+   7      Lato materiale     Lato due                                           
+   8      Direzione          Lato 1                                             
+   9      Profondità         Definito                                           
+   9.1    Lato uno           Definito                                           
+   9.1.1  Profondità lato 1  Nessuno                                            
+   9.2    Lato due           Definito                                           
+   9.2.1  Profondità lato 2  Attraverso tutto                                   
+
+ SEZIONE = Sezione 1 
+
+
+ QUOTE DI FEATURE:
+ d16 = (Visualizzato:) 1.7
+       ( Memorizzato:) 1.7 ( 0.01, -0.01 ) 
+ d17 = (Visualizzato:) 2 (debole)
+       ( Memorizzato:) 1.996114021252 ( 0.01, -0.01 ) 
+
+ ********************
+

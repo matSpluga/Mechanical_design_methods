@@ -1,0 +1,13 @@
+﻿!UI trail file version 1
+!Application name  `PRO`
+! Executed sub-command ProCmdWinCloseAsyn.
+!%CIImpossibile chiudere la finestra base.
+< 0 0.898370 1716 0 0 758 1920 0 0 1080 13
+< 0 0.898370 1544 0 0 758 1920 0 0 1080 13
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric Student Edition (for educational use only) verrà chiuso e il lavoro non salvato andrà perso.
+!               : Uscire?
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File
